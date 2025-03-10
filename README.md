@@ -29,28 +29,29 @@ Conta gratuita no TMDB para obter a chave da API
 ---
 
 
-🚀 Instalação
+### Instalação
 
-Clone este repositório:
+- Clone este repositório:
 
 ```
-git clone https://github.com/seu-usuario/trending-movies.git
+      git clone https://github.com/seu-usuario/trending-movies.git
 ```
 
-Abra o projeto no Xcode.
+- Abra o projeto no Xcode.
 
-Crie um arquivo APIKeys.swift dentro da pasta Constants e adicione sua chave da API do TMDB:
+- Crie um arquivo APIKeys.swift dentro da pasta Constants e adicione sua chave da API do TMDB:
 
 ```swift
-struct APIConstants {
-      static let tmdbKey = "SUA_CHAVE_AQUI"
+      struct APIConstants {
+            static let tmdbKey = "SUA_CHAVE_AQUI"
 }
 ```
+
+- Compile e execute o projeto no simulador ou dispositivo.
+
 ---
 
-Compile e execute o projeto no simulador ou dispositivo.
-
-🎬 Funcionalidades
+### Funcionalidades
 
 🚧 Listagem de filmes populares
 
@@ -72,19 +73,19 @@ Compile e execute o projeto no simulador ou dispositivo.
 
 ---
 
-🔥 Melhorias Futuras
+### Melhorias Futuras 
 
-🔍 Busca de filmes
+- Busca de filmes
 
-🎭 Filtragem por gênero
+- Filtragem por gênero
 
-⭐ Favoritos
+- Favoritos
 
-🌙 Dark mode
+- Dark mode
 
 ---
 
-🤝 Contribuição
+### Contribuição
 
 Se desejar contribuir, siga estes passos:
 
