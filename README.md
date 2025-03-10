@@ -43,7 +43,7 @@ Conta gratuita no TMDB para obter a chave da API
 
 ```swift
       struct APIConstants {
-            static let tmdbKey = "SUA_CHAVE_AQUI"
+            static let apiKey = "SUA_CHAVE_AQUI"
 }
 ```
 
