@@ -14,7 +14,7 @@ MVVM (Model-View-ViewModel)
 
 URLSession para requisições HTTP
 
-API TMDB
+API TMDB: https://developer.themoviedb.org/docs/getting-started
 
 ---
 
