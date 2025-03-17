@@ -16,7 +16,20 @@ class MovieService {
                 completion(.failure(error))
                 return
             }
-        }
+            
+            guard let data = data else {
+                completion(.failure(NSError(domain: "Dados não localizados", code: 0, userInfo: nil)))
+                return
+            }
+            
+            do {
+                let decoder = JSONDecoder()
+                let movieResponse = try decoder.decode(MovieResponse.self, from: data)
+                completion(.success(movieResponse.results))
+            } catch{
+                completion(.failure(error))
+            }
+        }.resume()
     }
 }
 
