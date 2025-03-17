@@ -10,5 +10,12 @@ class MovieService {
             completion(.failure(NSError(domain: "URL Inválida", code: 0, userInfo: nil)))
             return
         }
+        
+        URLSession.shared.dataTask(with: url) { data, response, error in
+            if let error = error {
+                completion(.failure(error))
+                return
+            }
+        }
     }
 }
