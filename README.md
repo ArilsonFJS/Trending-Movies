@@ -110,4 +110,4 @@ Se desejar contribuir, siga estes passos:
 
 ---
 
-Desenvolvido por Arilson 🚀
+Desenvolvido por Arilson
