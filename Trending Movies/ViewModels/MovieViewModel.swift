@@ -11,7 +11,7 @@ class MovieViewModel {
             DispatchQueue.main.async {
                 switch result {
                 case .success(let movies):
-                    self?.movies
+                    self?.movies = movies
                     self?.onMoviesUpdate?()
                     
                 case .failure(let error):
