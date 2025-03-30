@@ -21,11 +21,9 @@ class MoviesViewController: UIViewController {
         super.viewDidLoad()
         setupUI()
         setupBindings()
-        viewModel.loadTrendingMovie()
     }
     
     private func setupUI(){
-        title = "Filmes Populares"
         
         tableView.frame = view.bounds
         tableView.delegate = self
@@ -65,6 +63,15 @@ extension MoviesViewController: UITableViewDataSource, UITableViewDelegate {
         cell.textLabel?.text = movie.title
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let selectedMovie = viewModel.movies[indexPath.row]
+        let detailVC = MovieDetailViewController()
+        detailVC.movie = selectedMovie
+        
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 }
 
