@@ -18,6 +18,7 @@ class MoviesViewController: UIViewController {
     private var viewModel = MovieViewModel()
 
     override func viewDidLoad() {
+        view.backgroundColor = .white
         super.viewDidLoad()
         setupUI()
         setupBindings()
