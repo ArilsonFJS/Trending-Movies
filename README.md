@@ -53,11 +53,11 @@ Conta gratuita no TMDB para obter a chave da API
 
 ### Funcionalidades
 
-🚧 Listagem de filmes populares
+✅ Listagem de filmes populares
 
-🚧 Exibição de detalhes do filme
+✅ Exibição de detalhes do filme
 
-🚧 Carregamento de imagens dos filmes
+✅ Carregamento de imagens dos filmes
 
 ---
 
