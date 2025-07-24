@@ -10,8 +10,6 @@ Swift
 
 UIKit
 
-MVVM (Model-View-ViewModel)
-
 URLSession para requisições HTTP
 
 API TMDB: https://developer.themoviedb.org/docs/getting-started
