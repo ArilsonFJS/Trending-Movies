@@ -109,5 +109,3 @@ Se desejar contribuir, siga estes passos:
 - Abra um Pull Request
 
 ---
-
-Desenvolvido por Arilson
